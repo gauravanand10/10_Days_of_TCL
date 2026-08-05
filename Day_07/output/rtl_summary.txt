@@ -1,0 +1,9 @@
+RTL FILE SUMMARY
+================
+
+1. alu.v
+2. uart.v
+3. spi.v
+4. fifo.v
+
+Total RTL Files : 4
