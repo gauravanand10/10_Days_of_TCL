@@ -1,0 +1,4 @@
+alu.v
+uart.v
+spi.v
+fifo.v
