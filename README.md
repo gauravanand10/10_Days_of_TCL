@@ -1,254 +1,173 @@
-# 🚀 10 Days of TCL for ASIC Design
+# 10 Days of TCL for ASIC Design
 
-<div align="center">
+A practical TCL learning and implementation repository focused on **ASIC design, EDA tools, and flow automation**.
 
-### Mastering TCL for ASIC Design, Verification, FPGA Development & EDA Automation
+This repository covers TCL from basic language constructs to writing scripts that can be used with EDA tools and ASIC design flows.
 
-<img src="https://img.shields.io/badge/Language-TCL-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Duration-10_Days-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Focus-ASIC_Design-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/EDA-Automation-orange?style=for-the-badge"/>
+The objective was to understand both **TCL programming** and its practical usage in an EDA environment.
 
 ---
 
-*"Learning TCL one day at a time. Building automation scripts like an ASIC Engineer."*
+## Contents
 
-</div>
-
----
-
-# 📖 About This Repository
-
-This repository documents my **10-Day TCL Learning Journey**, where I learn TCL from the fundamentals to real ASIC automation.
-
-TCL (Tool Command Language) is the scripting language used by almost every Electronic Design Automation (EDA) tool. Instead of simply learning commands, this repository focuses on understanding **how TCL is used in real ASIC design flows**.
-
-Each day includes:
-
-- 📚 Theory
-- 💻 Practical Examples
-- 📝 Mini Assignments
-- 🎯 Interview Questions
-- 📸 Terminal Output
-- 📄 Professional Documentation
-
-The goal is not only to learn TCL syntax but also to become comfortable reading and writing TCL scripts used in industry.
+| Day    | Topic                             |
+| ------ | --------------------------------- |
+| Day 01 | Variables & Variable Substitution |
+| Day 02 | Expressions & Operators           |
+| Day 03 | Conditional Statements            |
+| Day 04 | Loops                             |
+| Day 05 | Lists & String Manipulation       |
+| Day 06 | Procedures                        |
+| Day 07 | File Handling                     |
+| Day 08 | Linux & System Commands           |
+| Day 09 | ASIC Automation                   |
+| Day 10 | Final TCL Project                 |
 
 ---
 
-# 🎯 Why Learn TCL?
+## Repository Structure
 
-TCL is the standard scripting language used in:
-
-- RTL Design
-- Logic Synthesis
-- Static Timing Analysis (STA)
-- Physical Design
-- FPGA Design
-- ASIC Flow Automation
-
-Learning TCL allows engineers to automate repetitive tasks, improve productivity, and work efficiently with professional EDA tools.
-
----
-
-# 🛠 EDA Tools That Use TCL
-
-- Synopsys Design Compiler
-- Synopsys PrimeTime
-- Synopsys IC Compiler II (ICC2)
-- Cadence Genus
-- Cadence Innovus
-- Cadence Tempus
-- Xilinx Vivado
-- Intel Quartus Prime
-
----
-
-# 🎯 Learning Objectives
-
-By the end of this challenge, I aim to:
-
-- Understand TCL Fundamentals
-- Write Clean TCL Scripts
-- Learn TCL Programming Concepts
-- Handle Files using TCL
-- Execute Linux Commands through TCL
-- Build Reusable TCL Procedures
-- Understand ASIC Automation Scripts
-- Read and Modify Industrial TCL Scripts
-- Prepare for ASIC Interviews
-
----
-
-# 📅 Learning Roadmap
-
-| Day | Topic | Status |
-|------|-------------------------------|--------|
-| Day 01 | Variables & Variable Substitution | ✅ |
-| Day 02 | Expressions & Operators | ⏳ |
-| Day 03 | Conditional Statements | ⏳ |
-| Day 04 | Loops | ⏳ |
-| Day 05 | Lists & String Manipulation | ⏳ |
-| Day 06 | Procedures (Functions) | ⏳ |
-| Day 07 | File Handling | ⏳ |
-| Day 08 | Linux/System Commands | ⏳ |
-| Day 09 | ASIC Automation Scripts | ⏳ |
-| Day 10 | Final TCL Project | ⏳ |
-
----
-
-# 📂 Repository Structure
-
-```
-10-Days-of-TCL-for-ASIC
+```text
+10-Days-of-TCL-for-ASIC/
 │
 ├── README.md
 │
-├── Day01_Variables_and_Substitution
-│
-├── Day02_Expressions_and_Operators
-│
-├── Day03_Conditions
-│
-├── Day04_Loops
-│
-├── Day05_Lists_and_Strings
-│
-├── Day06_Procedures
-│
-├── Day07_File_Handling
-│
-├── Day08_System_Commands
-│
-├── Day09_ASIC_Automation
-│
-└── Day10_Final_Project
+├── Day01_Variables_and_Substitution/
+├── Day02_Expressions_and_Operators/
+├── Day03_Conditions/
+├── Day04_Loops/
+├── Day05_Lists_and_Strings/
+├── Day06_Procedures/
+├── Day07_File_Handling/
+├── Day08_System_Commands/
+├── Day09_ASIC_Automation/
+└── Day10_Final_Project/
 ```
 
----
-
-# 💻 Tools Used
-
-- Ubuntu Linux
-- TCL Shell (tclsh)
-- Visual Studio Code
-- Git
-- GitHub
+Each directory contains the TCL concepts, examples, exercises, and scripts implemented for that day.
 
 ---
 
-# 📚 Topics Covered
+## TCL Topics Covered
 
-## TCL Fundamentals
+### Language Fundamentals
 
-- Variables
-- Variable Substitution
-- Strings
-- Expressions
-- Command Substitution
-- Comments
-- Coding Style
+* Variables
+* Variable substitution
+* Command substitution
+* Expressions
+* Operators
+* Strings
+* Comments
+* TCL syntax and evaluation
 
----
+### Programming
 
-## Programming Concepts
+* `if / elseif / else`
+* `for`
+* `while`
+* `foreach`
+* Lists
+* String operations
+* Procedures
+* Arguments
+* Return values
+* Scope
 
-- Conditional Statements
-- Loops
-- Lists
-- Procedures
-- File Handling
-- String Manipulation
+### File & System Handling
 
----
-
-## Linux Automation
-
-- Executing Shell Commands
-- Creating Directories
-- Managing Files
-- Working with Reports
-
----
-
-## ASIC Automation
-
-- TCL Scripting for Design Compiler
-- TCL Scripting for PrimeTime
-- TCL Scripting for ICC2
-- Vivado TCL Basics
-- Automation Flow Development
+* File creation and reading
+* File writing and appending
+* File existence checks
+* Directory management
+* Parsing text files
+* Executing Linux commands
+* Handling command output
 
 ---
 
-# 📈 Skills Developed
+## TCL in EDA
 
-- TCL Programming
-- Automation Scripting
-- Linux Integration
-- ASIC Design Flow Understanding
-- File Processing
-- Debugging TCL Scripts
-- Writing Professional TCL Code
+The later part of the repository focuses on how TCL is used inside EDA tools.
 
----
+Examples include concepts used for:
 
-# 🎯 Interview Preparation
+* Design setup
+* RTL file management
+* Library configuration
+* Synthesis scripting
+* Timing analysis
+* Report generation
+* Flow automation
+* Tool configuration
 
-Throughout this challenge I also document common ASIC interview questions related to TCL, including:
-
-- What is TCL?
-- Why is TCL used in ASIC Design?
-- Variable Substitution
-- Difference between Quotes and Braces
-- Command Substitution
-- Procedures
-- File Handling
-- TCL Automation
-- Industrial TCL Flows
+The same TCL concepts learned in the first few days are applied to EDA-oriented scripts.
 
 ---
 
-# 🚀 Final Project
+## EDA Tools
 
-The challenge concludes with a complete TCL automation project that demonstrates:
+The scripts and examples are intended to be applicable to commonly used TCL-based EDA environments, including:
 
-- Reading RTL Files
-- Checking File Existence
-- Creating Project Directories
-- Executing Linux Commands
-- Logging Outputs
-- Generating Reports
-- Professional TCL Coding Practices
-
----
-
-# 📌 Future Scope
-
-This repository will later be integrated with complete ASIC flows using:
-
-- Synopsys Design Compiler
-- Synopsys PrimeTime
-- Synopsys ICC2
-- Cadence Innovus
-- Vivado
-
-to demonstrate real-world TCL automation used in industry.
+* Cadence Genus
+* Cadence Innovus
+* Cadence Tempus
+* Synopsys Design Compiler
+* Synopsys PrimeTime
+* Synopsys ICC2
+* Xilinx Vivado
 
 ---
 
-# 🤝 Connect With Me
+## Final Project
 
-If you find this repository useful, feel free to ⭐ the repository and follow my learning journey.
+The final project combines the TCL concepts covered throughout the repository into a small ASIC-oriented automation flow.
+
+The flow includes tasks such as:
+
+```text
+RTL / Input Files
+       │
+       ▼
+File & Directory Checks
+       │
+       ▼
+Flow Configuration
+       │
+       ▼
+Command Execution
+       │
+       ▼
+Log / Report Generation
+       │
+       ▼
+Final Flow Summary
+```
+
+The project is intentionally kept simple and focuses on understanding the scripting concepts and their application to an ASIC workflow.
 
 ---
 
-<div align="center">
+## Environment
 
-## ⭐ Happy Learning! ⭐
+```text
+OS       : Ubuntu Linux
+Language : TCL
+Shell    : tclsh
+Editor   : VS Code
+Version  : Git
+```
 
-### "Every expert was once a beginner."
+EDA-specific scripts can be executed within the corresponding tool environment.
 
-**10 Days of TCL → ASIC Automation → Better Engineer**
+---
 
-</div>
+## References
+
+The repository is based on TCL language fundamentals and practical scripting patterns commonly used in EDA environments.
+
+---
+
+## Status
+
+**Completed — 10/10 Days**
