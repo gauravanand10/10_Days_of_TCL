@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### Mastering TCL for ASIC Design, Verification, FPGA Development & EDA Automation
+### Mastering TCL for ASIC Design, Verification, FPGA Development & EDA Automatio
 
 <img src="https://img.shields.io/badge/Language-TCL-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Duration-10_Days-success?style=for-the-badge"/>
