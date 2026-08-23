@@ -1,4 +1,4 @@
-# 🚀 10 Days of TCL for ASIC Desig
+# 🚀 10 Days of TCL for ASIC Design
 
 <div align="center">
 
